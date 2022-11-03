@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float percentile;
+    printf("enter the percentile:");
+    scanf("%f",&percentile);
+    if (percentile>=80)
+{
+   printf("you have hopes");
+}
+else
+{
+   printf("we are sorry");
+}
+}
